@@ -1,0 +1,25 @@
+.login{
+    height: 2%;
+    justify-self: center;
+    display: grid;
+    align-items: center;
+    grid-template-rows: repeat(12,1fr);
+}
+
+.item{
+    grid-row: 12/13;
+}
+
+.message{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EB5757;
+    border-radius: 8px;
+    margin-top: 5%;
+}
+
+.p{
+    font-family: 'Epilogue', sans-serif;
+}

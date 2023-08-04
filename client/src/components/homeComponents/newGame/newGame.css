@@ -1,0 +1,10 @@
+.newGame{
+    display: grid;
+    height:75%;
+    grid-template-rows: repeat(5,1fr);
+}
+
+.but1{
+    grid-row: end;
+    width: 100%;
+}

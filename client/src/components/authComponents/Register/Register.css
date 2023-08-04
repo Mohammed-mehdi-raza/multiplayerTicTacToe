@@ -1,0 +1,33 @@
+.register{
+    height: 2%;
+    justify-self: center;
+    display: grid;
+    align-items: center;
+    grid-template-rows: repeat(12,1fr);
+}
+
+.green{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background: #6FCF97;
+}
+
+.red{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background: #EB5757;
+}
+
+.p{
+    font-family: 'Epilogue', sans-serif;
+}

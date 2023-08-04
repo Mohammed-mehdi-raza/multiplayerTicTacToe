@@ -1,0 +1,37 @@
+.home{
+    align-self:center;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 500px;
+    grid-template-rows: repeat(6,1fr);
+    font-family: 'Bilbo', cursive;
+}
+
+.item1{
+    grid-row: 1/2;
+    font-style: italic;
+}
+
+.item2{
+    grid-row: 2/3;
+    font-size: 300%;
+    font-style: italic;
+}
+
+.item3{
+    grid-row: 3/4;
+    font-size: 300%;
+    font-style: italic;
+}
+
+.item4{
+    grid-row: 5/6;
+    width: 100%;
+}
+
+.item5{
+    grid-row: 6/7;
+    width: 100%;
+}
+

@@ -1,0 +1,9 @@
+.App {
+  padding: 5%;
+  height:570px;
+  width:350px;
+  background-color: white;
+  border-radius: 2rem;
+  overflow: auto;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.25);
+}

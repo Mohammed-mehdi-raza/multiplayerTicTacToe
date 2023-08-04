@@ -1,0 +1,16 @@
+.home1{
+    align-self: center;
+    display: grid;
+    height: 60%;
+    justify-items: center;
+    font-family: 'Bilbo', cursive;
+    grid-template-rows: repeat(5,1fr);
+}
+
+.home1 h1{
+    font-style: italic;
+}
+
+.but{
+    width: 100%;
+}
