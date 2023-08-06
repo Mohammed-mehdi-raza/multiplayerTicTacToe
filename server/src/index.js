@@ -15,6 +15,9 @@ const server = http.createServer(app);
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors());
+app.get('/',(req,res)=>{
+  res.send("hello");
+})
 app.use('/',routes);
 
 const io = new Server(server, {
