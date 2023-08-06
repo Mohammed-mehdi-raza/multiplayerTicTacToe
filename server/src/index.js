@@ -22,7 +22,8 @@ app.use('/',routes);
 
 const io = new Server(server, {
     cors: {
-      origin: "http://localhost:3000",
+      // origin: "http://localhost:3000",
+      origin:"https://64cf6b854077e03a078fe6dd--radiant-sunburst-439c37.netlify.app",
       methods: ["GET", "POST"],
     },
 });
