@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const url="http://localhost:5000";
+// const url="http://localhost:5000";
+const url="https://tictactoe-dwr6.onrender.com";
 const API =axios.create({baseURL:url});
 
 export const logIn=(formData)=>API.post('/signIn',formData);
