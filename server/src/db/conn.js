@@ -4,7 +4,7 @@ import 'dotenv/config';
 
 // dotenv.config();
 
-const URI=process.env.Mongo_URI;
+const URI=process.env.MONGO_URI;
 mongoose.set("strictQuery", false);
 
 mongoose.connect(URI, {
